@@ -23,6 +23,8 @@ public class Activity1 {
         options.setAutomationName("UiAutomator2");
         options.setAppPackage("com.android.calculator2");
         options.setAppActivity(".Calculator");
+        options.setCapability("device", "Samsung Galaxy S9+");
+        options.setCapability("real_mobile", "true");
         options.noReset();
 
         // Server Address
